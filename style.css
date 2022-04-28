@@ -1,0 +1,41 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    background-color: blueviolet;
+    width: 300px;
+    padding: 30px;
+}
+nav ul li{
+    padding: 20px 20px 20px 0px;
+    border-bottom: 1px solid white;
+    list-style-type: none;
+    cursor: pointer;
+    transition: 300ms all;
+    position: relative;
+}
+nav ul li:last-child{
+    border: none;
+}
+nav ul li a{
+    border: solid;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 20px;
+}
+nav ul li span{
+    color: white;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+}
+nav ul li:hover{
+    background-color: cornflowerblue;
+    padding: 20px 0px 20px 30px;
+}
